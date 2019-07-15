@@ -1,0 +1,21 @@
+Dumping /var/kafka-logs/instructions1-0/00000000000000000000.log
+Starting offset: 0
+baseOffset: 0 lastOffset: 1 count: 2 baseSequence: -1 lastSequence: -1 producerId: -1 producerEpoch: -1 partitionLeaderEpoch: 0 isTransactional: false isControl: false position: 0 CreateTime: 1558522382111 size: 122 magic: 2 compresscodec: GZIP crc: 3000729967 isvalid: true
+| offset: 0 CreateTime: 1558522382110 keysize: -1 valuesize: 12 sequence: -1 headerKeys: [] payload: Welcome back
+| offset: 1 CreateTime: 1558522382111 keysize: -1 valuesize: 16 sequence: -1 headerKeys: [] payload: after completing
+baseOffset: 2 lastOffset: 16 count: 15 baseSequence: -1 lastSequence: -1 producerId: -1 producerEpoch: -1 partitionLeaderEpoch: 0 isTransactional: false isControl: false position: 122 CreateTime: 1558522382113 size: 328 magic: 2 compresscodec: GZIP crc: 284990260 isvalid: true
+| offset: 2 CreateTime: 1558522382112 keysize: -1 valuesize: 21 sequence: -1 headerKeys: [] payload: the initial challenge
+| offset: 3 CreateTime: 1558522382112 keysize: -1 valuesize: 13 sequence: -1 headerKeys: [] payload: we would like
+| offset: 4 CreateTime: 1558522382112 keysize: -1 valuesize: 16 sequence: -1 headerKeys: [] payload: to challange you
+| offset: 5 CreateTime: 1558522382112 keysize: -1 valuesize: 17 sequence: -1 headerKeys: [] payload: a little further.
+| offset: 6 CreateTime: 1558522382112 keysize: -1 valuesize: 22 sequence: -1 headerKeys: [] payload: In the locations topic
+| offset: 7 CreateTime: 1558522382112 keysize: -1 valuesize: 24 sequence: -1 headerKeys: [] payload: we provided additionally
+| offset: 8 CreateTime: 1558522382112 keysize: -1 valuesize: 20 sequence: -1 headerKeys: [] payload: the name of the city
+| offset: 9 CreateTime: 1558522382112 keysize: -1 valuesize: 22 sequence: -1 headerKeys: [] payload: each hotel is located.
+| offset: 10 CreateTime: 1558522382112 keysize: -1 valuesize: 9 sequence: -1 headerKeys: [] payload: This time
+| offset: 11 CreateTime: 1558522382112 keysize: -1 valuesize: 20 sequence: -1 headerKeys: [] payload: the report should be
+| offset: 12 CreateTime: 1558522382113 keysize: -1 valuesize: 16 sequence: -1 headerKeys: [] payload: the same, except
+| offset: 13 CreateTime: 1558522382113 keysize: -1 valuesize: 20 sequence: -1 headerKeys: [] payload: that the sums should
+| offset: 14 CreateTime: 1558522382113 keysize: -1 valuesize: 11 sequence: -1 headerKeys: [] payload: be per city
+| offset: 15 CreateTime: 1558522382113 keysize: -1 valuesize: 14 sequence: -1 headerKeys: [] payload: instead of per
+| offset: 16 CreateTime: 1558522382113 keysize: -1 valuesize: 5 sequence: -1 headerKeys: [] payload: hotel

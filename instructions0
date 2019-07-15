@@ -1,0 +1,49 @@
+Dumping /var/kafka-logs/instructions0-0/00000000000000000000.log
+Starting offset: 0
+baseOffset: 0 lastOffset: 45 count: 46 baseSequence: -1 lastSequence: -1 producerId: -1 producerEpoch: -1 partitionLeaderEpoch: 0 isTransactional: false isControl: false position: 0 CreateTime: 1558522382101 size: 748 magic: 2 compresscodec: GZIP crc: 691777499 isvalid: true
+| offset: 0 CreateTime: 1558522382095 keysize: -1 valuesize: 13 sequence: -1 headerKeys: [] payload: Welcome back!
+| offset: 1 CreateTime: 1558522382096 keysize: -1 valuesize: 11 sequence: -1 headerKeys: [] payload: in the data
+| offset: 2 CreateTime: 1558522382096 keysize: -1 valuesize: 5 sequence: -1 headerKeys: [] payload: topic
+| offset: 3 CreateTime: 1558522382096 keysize: -1 valuesize: 26 sequence: -1 headerKeys: [] payload: we stored some information
+| offset: 4 CreateTime: 1558522382096 keysize: -1 valuesize: 18 sequence: -1 headerKeys: [] payload: about interactions
+| offset: 5 CreateTime: 1558522382096 keysize: -1 valuesize: 13 sequence: -1 headerKeys: [] payload: of users with
+| offset: 6 CreateTime: 1558522382096 keysize: -1 valuesize: 12 sequence: -1 headerKeys: [] payload: some hotels.
+| offset: 7 CreateTime: 1558522382096 keysize: -1 valuesize: 15 sequence: -1 headerKeys: [] payload: you will find a
+| offset: 8 CreateTime: 1558522382096 keysize: -1 valuesize: 15 sequence: -1 headerKeys: [] payload: comma separated
+| offset: 9 CreateTime: 1558522382097 keysize: -1 valuesize: 14 sequence: -1 headerKeys: [] payload: list of values
+| offset: 10 CreateTime: 1558522382097 keysize: -1 valuesize: 14 sequence: -1 headerKeys: [] payload: in each of the
+| offset: 11 CreateTime: 1558522382097 keysize: -1 valuesize: 14 sequence: -1 headerKeys: [] payload: "data"s topics
+| offset: 12 CreateTime: 1558522382097 keysize: -1 valuesize: 9 sequence: -1 headerKeys: [] payload: messages.
+| offset: 13 CreateTime: 1558522382097 keysize: -1 valuesize: 13 sequence: -1 headerKeys: [] payload: Every message
+| offset: 14 CreateTime: 1558522382097 keysize: -1 valuesize: 10 sequence: -1 headerKeys: [] payload: consist of
+| offset: 15 CreateTime: 1558522382097 keysize: -1 valuesize: 13 sequence: -1 headerKeys: [] payload: the hotels ID
+| offset: 16 CreateTime: 1558522382099 keysize: -1 valuesize: 15 sequence: -1 headerKeys: [] payload: and the type of
+| offset: 17 CreateTime: 1558522382099 keysize: -1 valuesize: 16 sequence: -1 headerKeys: [] payload: user interaction
+| offset: 18 CreateTime: 1558522382099 keysize: -1 valuesize: 23 sequence: -1 headerKeys: [] payload: (clicks and views eg.).
+| offset: 19 CreateTime: 1558522382099 keysize: -1 valuesize: 12 sequence: -1 headerKeys: [] payload: Each message
+| offset: 20 CreateTime: 1558522382099 keysize: -1 valuesize: 9 sequence: -1 headerKeys: [] payload: will also
+| offset: 21 CreateTime: 1558522382099 keysize: -1 valuesize: 17 sequence: -1 headerKeys: [] payload: carry a timestamp
+| offset: 22 CreateTime: 1558522382099 keysize: -1 valuesize: 7 sequence: -1 headerKeys: [] payload: of when
+| offset: 23 CreateTime: 1558522382099 keysize: -1 valuesize: 20 sequence: -1 headerKeys: [] payload: the event happended.
+| offset: 24 CreateTime: 1558522382099 keysize: -1 valuesize: 17 sequence: -1 headerKeys: [] payload: The assignment is
+| offset: 25 CreateTime: 1558522382100 keysize: -1 valuesize: 23 sequence: -1 headerKeys: [] payload: to write an application
+| offset: 26 CreateTime: 1558522382100 keysize: -1 valuesize: 17 sequence: -1 headerKeys: [] payload: that will consume
+| offset: 27 CreateTime: 1558522382100 keysize: -1 valuesize: 12 sequence: -1 headerKeys: [] payload: these events
+| offset: 28 CreateTime: 1558522382100 keysize: -1 valuesize: 14 sequence: -1 headerKeys: [] payload: and will count
+| offset: 29 CreateTime: 1558522382100 keysize: -1 valuesize: 20 sequence: -1 headerKeys: [] payload: per hotel and action
+| offset: 30 CreateTime: 1558522382100 keysize: -1 valuesize: 18 sequence: -1 headerKeys: [] payload: a sum of how often
+| offset: 31 CreateTime: 1558522382100 keysize: -1 valuesize: 19 sequence: -1 headerKeys: [] payload: this event occured.
+| offset: 32 CreateTime: 1558522382100 keysize: -1 valuesize: 18 sequence: -1 headerKeys: [] payload: ideally outputting
+| offset: 33 CreateTime: 1558522382100 keysize: -1 valuesize: 22 sequence: -1 headerKeys: [] payload: one row per each hotel
+| offset: 34 CreateTime: 1558522382100 keysize: -1 valuesize: 23 sequence: -1 headerKeys: [] payload: containing the two sums
+| offset: 35 CreateTime: 1558522382100 keysize: -1 valuesize: 20 sequence: -1 headerKeys: [] payload: for clicks and views
+| offset: 36 CreateTime: 1558522382101 keysize: -1 valuesize: 20 sequence: -1 headerKeys: [] payload: per every 30 minutes
+| offset: 37 CreateTime: 1558522382101 keysize: -1 valuesize: 9 sequence: -1 headerKeys: [] payload: timeframe
+| offset: 38 CreateTime: 1558522382101 keysize: -1 valuesize: 18 sequence: -1 headerKeys: [] payload: (0.00:00 - 0.29:59
+| offset: 39 CreateTime: 1558522382101 keysize: -1 valuesize: 17 sequence: -1 headerKeys: [] payload: 0.30:00 - 0.59:59
+| offset: 40 CreateTime: 1558522382101 keysize: -1 valuesize: 21 sequence: -1 headerKeys: [] payload: 1:00:00 - 1.29:59 eg)
+| offset: 41 CreateTime: 1558522382101 keysize: -1 valuesize: 11 sequence: -1 headerKeys: [] payload: we wich you
+| offset: 42 CreateTime: 1558522382101 keysize: -1 valuesize: 9 sequence: -1 headerKeys: [] payload: good luck
+| offset: 43 CreateTime: 1558522382101 keysize: -1 valuesize: 18 sequence: -1 headerKeys: [] payload: and that you enjoy
+| offset: 44 CreateTime: 1558522382101 keysize: -1 valuesize: 14 sequence: -1 headerKeys: [] payload: the challange.
+| offset: 45 CreateTime: 1558522382101 keysize: -1 valuesize: 17 sequence: -1 headerKeys: [] payload: your trivago team
